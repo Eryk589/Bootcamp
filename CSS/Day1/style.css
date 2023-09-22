@@ -1,0 +1,52 @@
+/* Element Selector 
+h1 {
+  color: blueviolet;
+}
+p {
+  color: deeppink;
+}
+*/
+
+/* ID selector - select specific element that matches the specified ID
+#p1 {
+  background-color: aquamarine;
+  color: blue;
+}
+*/
+
+/* Class Selecter - select all elemnts with specified classname
+
+.paragraphs {
+  background-color: crimson;
+  color: white;
+}*/
+
+/*  
+h1, 
+h2, 
+p {
+  background-color: black;
+  color: white;
+}
+*/
+
+* {
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+    background-color: #535803;
+    color: #fff;
+    border: 5px solid rgb(209, 130, 11);
+    padding: 50px;
+    margin: 100;
+}
