@@ -1,0 +1,111 @@
+/*hach wkwebview no user selection*/
+* {
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica Neue', 'Helvetica', 'Hiragino Sans GB', 'Hiragino Kaku Gothic Pro';
+    -webkit-font-smoothing: antialiased;
+    background: -webkit-linear-gradient(left, #FFFFFF 0%, #FFFFFF 60%);
+    background:linear-gradient(left, #FFFFFF 0%, #FFFFFF 60%);
+}
+
+.wrapper {
+    position: absolute;
+    width: 700px;
+    height: 460px;
+    margin: 0;
+    /*left: -50%;*/
+    /*margin-left: 50px;*/
+    /*top: -50%;*/
+    /*margin-top: 20px;*/
+    /*background-color: #ECECEC;*/
+}
+
+.envelope-image {
+    margin-top: 20px;
+    margin-left: 99px;
+    /*left: 25%;*/
+    width: 501px;
+    height: 240px;
+    background-image: url(images/envelope.png);
+}
+
+.unsafe-percentage-colorfont {
+    font-size: 200%;
+    color: #F5A623;
+}
+
+.description-1 {
+    font-family: HelveticaNeue;
+    font-size: 20px;
+    font-weight: 300;
+    color: #333333;
+    margin-top: 30px;
+    text-align: center;
+    cursor: default;
+}
+
+.description-2 {
+    font-family: HelveticaNeue;
+    font-size: 14px;
+    font-weight: 300;
+    color: #333333;
+    margin-top: 15px;
+    text-align: center;
+    cursor: default;
+    padding: 0px 50px;
+}
+
+.btn-cancel {
+    margin-top: 16px;
+    margin-left: 16px;
+    width: 22px;
+    height: 22px;
+    background-image: url(images/button_cross.png);
+    position: absolute;
+}
+
+.btn-open {
+    color: #3893FF;
+    background-color: transparent;
+    text-decoration: none;
+    font-family: HelveticaNeue;
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 30px;
+    /*margin-left: 237px; */
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn-cancel-title {
+    font-size: 16px;
+    font-weight: 400;
+    color: #333333;
+    display: inline-block;
+    line-height: 34px;
+    width: 197px;
+    text-align: center;
+    padding-left: 2px;
+    cursor: default;
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {  
+    .envelope-image {
+        background-image: url(images/envelope@2x.png);
+        background-size: 100% 100%;
+    }
+
+    .btn-cancel {
+        background-image: url(images/button_cross@2x.png);
+        background-size: 100% 100%;
+    }
+
+}

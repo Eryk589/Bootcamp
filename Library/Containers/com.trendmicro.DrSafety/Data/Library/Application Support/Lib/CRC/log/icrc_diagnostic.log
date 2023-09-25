@@ -1,0 +1,262 @@
+2023/09/24 11:19:25:377 +0000 [00689:4613881344] [ INFO] [icrc_config_file_path_helper.cpp( 24)] [SearchConfigPath]	Searching ICRCHdler.ini...
+2023/09/24 11:19:25:378 +0000 [00689:4613881344] [ INFO] [icrc_config_file_path_helper.cpp( 27)] [SearchConfigPath]	Searching module path...
+2023/09/24 11:19:25:378 +0000 [00689:4613881344] [ INFO] [icrc_config_file_path_helper.cpp( 32)] [SearchConfigPath]	module path:/Applications/Antivirus One.app/Contents/Frameworks/VirusCleaner.framework/Versions/A/Frameworks/
+2023/09/24 11:19:25:378 +0000 [00689:4613881344] [ INFO] [icrc_config_file_path_helper.cpp( 37)] [SearchConfigPath]	Searching module path...NOT FOUND
+2023/09/24 11:19:25:378 +0000 [00689:4613881344] [ INFO] [icrc_config_file_path_helper.cpp( 46)] [SearchConfigPath]	Searching executable path...
+2023/09/24 11:19:25:378 +0000 [00689:4613881344] [ INFO] [icrc_config_file_path_helper.cpp( 51)] [SearchConfigPath]	executable path:/Applications/Antivirus One.app/Contents/MacOS/
+2023/09/24 11:19:25:379 +0000 [00689:4613881344] [ INFO] [icrc_config_file_path_helper.cpp( 56)] [SearchConfigPath]	Searching executable path...NOT FOUND
+2023/09/24 11:19:25:379 +0000 [00689:4613881344] [ INFO] [icrc_config_file_path_helper.cpp( 65)] [SearchConfigPath]	Searching current path...
+2023/09/24 11:19:25:379 +0000 [00689:4613881344] [ INFO] [icrc_config_file_path_helper.cpp( 70)] [SearchConfigPath]	current path:/Users/erykhildebrand/Bootcamp/Library/Containers/com.trendmicro.DrSafety/Data
+2023/09/24 11:19:25:379 +0000 [00689:4613881344] [ INFO] [icrc_config_file_path_helper.cpp( 77)] [SearchConfigPath]	Searching current path...FOUND
+2023/09/24 11:19:25:381 +0000 [00689:4613881344] [ INFO] [DefaultSetting.cpp       ( 69)] [LoadSetting]	Load INI file /Users/erykhildebrand/Bootcamp/Library/Containers/com.trendmicro.DrSafety/Data/ICRCHdler.ini.
+2023/09/24 11:19:25:381 +0000 [00689:4613881344] [DEBUG] [GlobalConfig.cpp         (101)] [Reset]	>>>
+2023/09/24 11:19:25:381 +0000 [00689:4613881344] [DEBUG] [GlobalConfig.cpp         (200)] [Reset]	<<<
+2023/09/24 11:19:25:382 +0000 [00689:4613881344] [ INFO] [ServerConfig.cpp         (241)] [SetServerPath]	Is Not a Global Scan Server:
+2023/09/24 11:19:25:383 +0000 [00689:4613881344] [DEBUG] [logger.h                 ( 25)] [iCRCLoadDefaultGlobalConfigEx]	>>>
+2023/09/24 11:19:25:383 +0000 [00689:4613881344] [DEBUG] [logger.h                 ( 33)] [iCRCLoadDefaultGlobalConfigEx]	<<<
+2023/09/24 11:19:25:384 +0000 [00689:4613881344] [DEBUG] [logger.h                 ( 25)] [iCRCHandlerInitializeEx]	>>>
+2023/09/24 11:19:25:429 +0000 [00689:4613881344] [ INFO] [GlobalConfig.cpp         (594)] [SetScanMode]	Set scan mode to [SmartScan]. Value:0
+2023/09/24 11:19:25:430 +0000 [00689:4613881344] [ INFO] [ICRCHdler.cpp            (1202)] [iCRCHandlerInitializeEx]	Performance counter is disabled.
+2023/09/24 11:19:25:431 +0000 [00689:4613881344] [ INFO] [icrc_config_file_path_helper.cpp(219)] [SearchConfigPathInternal]	Searching curl-ca-bundle.crt...
+2023/09/24 11:19:25:432 +0000 [00689:4613881344] [ INFO] [icrc_config_file_path_helper.cpp(223)] [SearchConfigPathInternal]	Searching specific path.../Users/erykhildebrand/Bootcamp/Library/Containers/com.trendmicro.DrSafety/Data/Library/Application Support/Lib/CRC/pattern
+2023/09/24 11:19:25:432 +0000 [00689:4613881344] [ INFO] [icrc_config_file_path_helper.cpp(231)] [SearchConfigPathInternal]	Searching specific path...FOUND
+2023/09/24 11:19:25:432 +0000 [00689:4613881344] [DEBUG] [GlobalConfig.cpp         (2068)] [DumpGlobalConfig]	
+CacheBucketSize		=	5000
+PtnPath			=	/Users/erykhildebrand/Bootcamp/Library/Containers/com.trendmicro.DrSafety/Data/Library/Application Support/Lib/CRC/pattern
+ThreadCnt		=	5
+TmpPath			=	/Users/erykhildebrand/Bootcamp/Library/Containers/com.trendmicro.DrSafety/Data/Library/Application Support/Lib/CRC/temp
+LPCThreadCnt		=	5
+CachePath		=	/Users/erykhildebrand/Bootcamp/Library/Containers/com.trendmicro.DrSafety/Data/Library/Application Support/Lib/CRC/cache
+ScanMode		=	0
+DiskSizeToReserve	=	0
+VSMode			=	1
+
+2023/09/24 11:19:25:432 +0000 [00689:4613881344] [DEBUG] [GlobalConfig.cpp         (2091)] [DumpGlobalConfig]	
+isEnableAkamaiCacheInfo		=	0
+ChkBfFreq			=	0
+SvrPath				=	
+SvrQueryPath			=	
+Location			=	-1
+http_timeout			=	4294967295
+IsEnableLocalUserAgentFlag	=	0
+IsDisableRegOpenSSLMtCallback	=	0
+TaskTimeout			=	1500
+ForceQueryPeriod		=	1800000
+
+2023/09/24 11:19:25:433 +0000 [00689:4613881344] [DEBUG] [GlobalConfig.cpp         (2116)] [DumpGlobalConfig]	
+UserAgent			=	iCRCHdler2.83.1052
+LastSetUserAgent		=	1695554365
+IsEnableAMSPAsyncScanMode	=	0
+IsEnableReportCRC0		=	0
+DisableResume			=	0
+ResumeMaxRetry			=	0
+ResumeRetryExpiredDay		=	3
+IsDisableBF			=	0
+IsDisableCrcCache		=	0
+NTimesPatchFailDwnFull		=	2
+
+2023/09/24 11:19:25:433 +0000 [00689:4613881344] [DEBUG] [GlobalConfig.cpp         (2141)] [DumpGlobalConfig]	
+CdtLogPath		=	//Users/erykhildebrand/Bootcamp/Library/Containers/com.trendmicro.DrSafety/Data/Library/Application Support/Lib/CRC/cdtlog
+PurgeApcAsyncPerSeconds	=	600
+BAS			=	1
+FullMergeMaxVersion	=	200
+FullMergeMaxCount	=	1000000
+DisableUrlConvert	=	0
+UpdateRetryPeriod	=	300
+UpdateTimeout		=	1800
+ControlFlags		=	0
+ControlFlagFrequency	=	86400
+
+2023/09/24 11:19:25:433 +0000 [00689:4613881344] [DEBUG] [GlobalConfig.cpp         (2166)] [DumpGlobalConfig]	
+LowSpeedTimeout			=	30
+LowSpeedLimit			=	100
+EnableAddressFamilyAutoSelect	=	0
+AddressFamilyMode		=	0
+AddressFamilyPrefer		=	0
+HostnameResolveTimeout		=	1000
+ConnectionDetectionTimeout	=	1000
+MaxTryConnectionThreadCount	=	2
+AddressFamilyRefreshInterval	=	1800
+EnableCURLVerbose		=	1
+
+2023/09/24 11:19:25:433 +0000 [00689:4613881344] [DEBUG] [GlobalConfig.cpp         (2191)] [DumpGlobalConfig]	
+QueryTimeout				=	600
+EnableDeferFullDownload			=	1
+IntervalToCalculateTargetTime		=	604800
+IntervalToReCalculateTargetTime		=	75600
+SpecificIntervalToCalculateTargetTime	=	0
+SpecificIntervalToReCalculateTargetTime	=	0
+PeriodOfTargetTime			=	3600
+IntervalToForceDownload			=	1209600
+EnableCdtLog				=	0
+EnableTrueDns				=	1
+
+2023/09/24 11:19:25:433 +0000 [00689:4613881344] [DEBUG] [GlobalConfig.cpp         (2216)] [DumpGlobalConfig]	
+TrueDnsCachePurgeInterval	=	1800
+DisablePerfCounter		=	1
+EnableNoPtnNoQuery		=	1
+EnableForceQueryAtBeginning	=	1
+EnableScheduledThread		=	1
+ForceReconnectPeriod		=	0
+EnableTCPKeepALive		=	0
+TCPKeepAliveHeartbeatInterval	=	60
+
+2023/09/24 11:19:25:433 +0000 [00689:4613881344] [DEBUG] [ServerConfig.cpp         (458)] [DumpServerConfig]	
+ServerPath	=	
+UseProxy	=	0
+Proxy		=	
+ProxyPort	=	8080
+hasProxyAuth	=	False
+
+2023/09/24 11:19:25:434 +0000 [00689:4613881344] [DEBUG] [SSLOption.cpp            (275)] [DumpSSLOption]	VerifyPeer	=	0
+CipherList	=	DEFAULT
+SSLVersion	=	0
+
+2023/09/24 11:19:25:434 +0000 [00689:4613881344] [ INFO] [ICRCHdler.cpp            (1274)] [iCRCHandlerInitializeEx]	BAS mode = 1
+2023/09/24 11:19:25:434 +0000 [00689:4613881344] [ INFO] [crc0ptn_load.cpp         ( 79)] [LoadCrc0Pattern]	Try to load /Users/erykhildebrand/Bootcamp/Library/Containers/com.trendmicro.DrSafety/Data/Library/Application Support/Lib/CRC/pattern/crcznew.ptn as crcznew.ptn
+2023/09/24 11:19:25:434 +0000 [00689:4613881344] [ WARN] [crc0ptn_load.cpp         ( 47)] [LoadCrc0PatternFromFile]	/Users/erykhildebrand/Bootcamp/Library/Containers/com.trendmicro.DrSafety/Data/Library/Application Support/Lib/CRC/pattern/crcznew.ptn doesn't exist
+2023/09/24 11:19:25:434 +0000 [00689:4613881344] [ INFO] [crc0ptn_load.cpp         (102)] [LoadCrc0Pattern]	Try to load /Users/erykhildebrand/Bootcamp/Library/Containers/com.trendmicro.DrSafety/Data/Library/Application Support/Lib/CRC/pattern/crcz.ptn as crcz.ptn
+2023/09/24 11:19:25:435 +0000 [00689:4613881344] [ INFO] [crc0ptn_load.cpp         ( 35)] [LoadCrc0PatternFromFile]	Load from /Users/erykhildebrand/Bootcamp/Library/Containers/com.trendmicro.DrSafety/Data/Library/Application Support/Lib/CRC/pattern/crcz.ptn
+2023/09/24 11:19:25:435 +0000 [00689:4613881344] [ INFO] [crc0ptn.cpp              (135)] [ReadPatternFile]	Using client mode to read pattern
+2023/09/24 11:19:25:477 +0000 [00689:4613881344] [ INFO] [crc0ptn.cpp              (195)] [ClientReadFrom]	Read main table from pattern file /Users/erykhildebrand/Bootcamp/Library/Containers/com.trendmicro.DrSafety/Data/Library/Application Support/Lib/CRC/pattern/crcz.ptn.
+2023/09/24 11:19:26:086 +0000 [00689:4613881344] [ INFO] [crc0ptn.cpp              (221)] [ClientReadFrom]	Try read diff table from pattern file /Users/erykhildebrand/Bootcamp/Library/Containers/com.trendmicro.DrSafety/Data/Library/Application Support/Lib/CRC/pattern/crcz.ptn.
+2023/09/24 11:19:26:124 +0000 [00689:4613881344] [DEBUG] [crc0ptn_reader.cpp       (500)] [ReadDiffTableFrom]	read diff table, ignore pattern type:0x0000
+2023/09/24 11:19:26:226 +0000 [00689:4613881344] [DEBUG] [crc0ptn.cpp              (444)] [GetVersion]	Get version from diff table(0x0x600003cf4230), version=2147413063
+2023/09/24 11:19:26:226 +0000 [00689:4613881344] [DEBUG] [crc0ptn.cpp              (444)] [GetVersion]	Get version from diff table(0x0x600003cf4230), version=2147413063
+2023/09/24 11:19:26:227 +0000 [00689:4613881344] [DEBUG] [CRCCache.cpp             (112)] [Init]	CrcCache init.
+2023/09/24 11:19:26:227 +0000 [00689:4613881344] [ WARN] [CRCCache.cpp             (151)] [Init]	/Users/erykhildebrand/Bootcamp/Library/Containers/com.trendmicro.DrSafety/Data/Library/Application Support/Lib/CRC/cache/cache.dat does not exist
+2023/09/24 11:19:26:227 +0000 [00689:4613881344] [DEBUG] [CRCCache.cpp             (180)] [Init]	CrcCache init. count:0
+2023/09/24 11:19:26:227 +0000 [00689:4613881344] [ WARN] [ICRCHdler.cpp            (1300)] [iCRCHandlerInitializeEx]	Read CrcCache failed.
+2023/09/24 11:19:26:227 +0000 [00689:4613881344] [ INFO] [ServerConfig.cpp         (241)] [SetServerPath]	Is Not a Global Scan Server:
+2023/09/24 11:19:26:228 +0000 [00689:4613881344] [ INFO] [ICRCHdler.cpp            (1366)] [iCRCHandlerInitializeEx]	Disable AddressFamilyAutoSelect permanently.
+2023/09/24 11:19:26:228 +0000 [00689:4613881344] [DEBUG] [logger.h                 ( 25)] [NewGlobalDeferFullDownloadHelperIfNeeds]	>>>
+2023/09/24 11:19:26:228 +0000 [00689:4613881344] [ INFO] [ICRCHdler.cpp            (857)] [NewGlobalDeferFullDownloadHelperIfNeeds]	Create Global DeferFullDownloadHelper
+2023/09/24 11:19:26:228 +0000 [00689:4613881344] [DEBUG] [abstract_icrc_shm_accessor.cpp( 55)] [Init]	file_folder //Users/erykhildebrand/Bootcamp/Library/Containers/com.trendmicro.DrSafety/Data/Library/Application Support/Lib/CRC/cdtlog, file_name icrc_fulldwn.dat, mutex_name ICRC_FULLDWN_MUTEX_NAME, size 72, clean_up_everything_first 0
+2023/09/24 11:19:26:228 +0000 [00689:4613881344] [DEBUG] [abstract_icrc_shm_accessor.cpp( 61)] [Init]	file path: //Users/erykhildebrand/Bootcamp/Library/Containers/com.trendmicro.DrSafety/Data/Library/Application Support/Lib/CRC/cdtlog/icrc_fulldwn.dat
+2023/09/24 11:19:26:228 +0000 [00689:4613881344] [DEBUG] [abstract_icrc_shm_accessor.cpp(200)] [InitMutex]	Init mutex:ICRC_FULLDWN_MUTEX_NAME
+2023/09/24 11:19:26:228 +0000 [00689:4613881344] [DEBUG] [abstract_icrc_shm_accessor.cpp( 79)] [Init]	Create file mapping: //Users/erykhildebrand/Bootcamp/Library/Containers/com.trendmicro.DrSafety/Data/Library/Application Support/Lib/CRC/cdtlog/icrc_fulldwn.dat
+2023/09/24 11:19:26:229 +0000 [00689:4613881344] [ INFO] [abstract_icrc_shm_accessor.cpp( 86)] [Init]	Failed in file mapping: //Users/erykhildebrand/Bootcamp/Library/Containers/com.trendmicro.DrSafety/Data/Library/Application Support/Lib/CRC/cdtlog/icrc_fulldwn.dat, msg:No such file or directory, err:7.Now try to create the file
+2023/09/24 11:19:26:326 +0000 [00689:4613881344] [DEBUG] [abstract_icrc_shm_accessor.cpp(116)] [Init]	modify permission for shm
+2023/09/24 11:19:26:327 +0000 [00689:4613881344] [DEBUG] [abstract_icrc_shm_accessor.cpp(121)] [Init]	Create file mapping success
+2023/09/24 11:19:26:327 +0000 [00689:4613881344] [DEBUG] [fulldw_shm_accessor.cpp  (767)] [UpdateChecksum]	Update the SHA1 checksum 26d97fc1305bca827410c74aa9dd58b5664debe8
+2023/09/24 11:19:26:327 +0000 [00689:4613881344] [DEBUG] [fulldw_shm_accessor.cpp  (767)] [UpdateChecksum]	Update the SHA1 checksum 5b1848bdb95c5206d73102d3a3c4f4d05f9fbb1c
+2023/09/24 11:19:26:327 +0000 [00689:4613881344] [DEBUG] [fulldw_shm_accessor.cpp  (417)] [SetIsFullDownloadMode]	Set InFullDownloadMode False
+2023/09/24 11:19:26:327 +0000 [00689:4613881344] [DEBUG] [fulldw_shm_accessor.cpp  (767)] [UpdateChecksum]	Update the SHA1 checksum 981b4c497a53552c1483b4d9565801452f54c939
+2023/09/24 11:19:26:328 +0000 [00689:4613881344] [DEBUG] [fulldw_shm_accessor.cpp  (460)] [SetTargetTimeStart]	Set TargetTimeStart 0
+2023/09/24 11:19:26:328 +0000 [00689:4613881344] [DEBUG] [fulldw_shm_accessor.cpp  (767)] [UpdateChecksum]	Update the SHA1 checksum 6d91694cb07340820c9af1b43d8c84bcbe332d3b
+2023/09/24 11:19:26:328 +0000 [00689:4613881344] [DEBUG] [fulldw_shm_accessor.cpp  (504)] [SetRandomizedInterval]	Set RandomizedInterval 0
+2023/09/24 11:19:26:328 +0000 [00689:4613881344] [DEBUG] [fulldw_shm_accessor.cpp  (767)] [UpdateChecksum]	Update the SHA1 checksum ec40a61258de23caddbcf451e675e55e8a553caf
+2023/09/24 11:19:26:328 +0000 [00689:4613881344] [DEBUG] [fulldw_shm_accessor.cpp  (547)] [SetEnterTime]	Set EnterTime 0
+2023/09/24 11:19:26:328 +0000 [00689:4613881344] [DEBUG] [fulldw_shm_accessor.cpp  (767)] [UpdateChecksum]	Update the SHA1 checksum 1fe5efefb0038e10d40bae7bab1f8c1bcb52ac45
+2023/09/24 11:19:26:329 +0000 [00689:4613881344] [DEBUG] [fulldw_shm_accessor.cpp  (590)] [SetRecalculateTime]	Set RecalculateTime 0
+2023/09/24 11:19:26:329 +0000 [00689:4613881344] [DEBUG] [fulldw_shm_accessor.cpp  (767)] [UpdateChecksum]	Update the SHA1 checksum 91a277388cd5c0af707a4a02a10d0dca9c16523a
+2023/09/24 11:19:26:329 +0000 [00689:4613881344] [DEBUG] [fulldw_shm_accessor.cpp  (634)] [SetLeaveTime]	Set LeaveTime 0
+2023/09/24 11:19:26:329 +0000 [00689:4613881344] [ INFO] [fulldw_shm_accessor.cpp  (651)] [DumpAll]	In Full Download Mode: 0
+2023/09/24 11:19:26:329 +0000 [00689:4613881344] [ INFO] [fulldw_shm_accessor.cpp  (652)] [DumpAll]	Target Time Start: 0
+2023/09/24 11:19:26:329 +0000 [00689:4613881344] [ INFO] [fulldw_shm_accessor.cpp  (653)] [DumpAll]	Randomized Interval: 0
+2023/09/24 11:19:26:330 +0000 [00689:4613881344] [ INFO] [fulldw_shm_accessor.cpp  (654)] [DumpAll]	Enter Time: 0
+2023/09/24 11:19:26:330 +0000 [00689:4613881344] [ INFO] [fulldw_shm_accessor.cpp  (655)] [DumpAll]	Recalculate Time: 0
+2023/09/24 11:19:26:330 +0000 [00689:4613881344] [ INFO] [fulldw_shm_accessor.cpp  (656)] [DumpAll]	Leave Time: 0
+2023/09/24 11:19:26:330 +0000 [00689:4613881344] [DEBUG] [fulldw_shm_accessor.cpp  (698)] [DumpAll]	The SHA1 checksum 91a277388cd5c0af707a4a02a10d0dca9c16523a
+2023/09/24 11:19:26:331 +0000 [00689:4613881344] [ WARN] [DeferFullDownloadHelper.cpp(548)] [UpdatePerfCounter]	PerfObjectEx is NULL, maybe it has not been initialized yet.
+2023/09/24 11:19:26:331 +0000 [00689:4613881344] [ INFO] [DeferFullDownloadHelper.cpp( 66)] [Init]	Init Defer Full Download Helper successfully!
+2023/09/24 11:19:26:331 +0000 [00689:4613881344] [DEBUG] [logger.h                 ( 33)] [NewGlobalDeferFullDownloadHelperIfNeeds]	<<<
+2023/09/24 11:19:26:332 +0000 [00689:123145448415232] [DEBUG] [ICRCHdler.cpp            (1948)] [ProcessCmdThread]	force_reconnect_period is 0 seconds
+2023/09/24 11:19:26:332 +0000 [00689:4613881344] [ INFO] [ICRCHdler.cpp            (930)] [CreateHttpClientThread]	thread 123145448415232 created
+2023/09/24 11:19:26:332 +0000 [00689:123145448415232] [DEBUG] [logger.h                 ( 25)] [CurlInit]	>>>
+2023/09/24 11:19:26:332 +0000 [00689:4613881344] [ INFO] [ICRCHdler.cpp            (930)] [CreateHttpClientThread]	thread 123145449488384 created
+2023/09/24 11:19:26:332 +0000 [00689:123145449488384] [DEBUG] [ICRCHdler.cpp            (1948)] [ProcessCmdThread]	force_reconnect_period is 0 seconds
+2023/09/24 11:19:26:333 +0000 [00689:123145449488384] [DEBUG] [logger.h                 ( 25)] [CurlInit]	>>>
+2023/09/24 11:19:26:333 +0000 [00689:123145449488384] [DEBUG] [ICRCHdler.cpp            (1883)] [CurlInit]	Set query timeout 600000 ms
+2023/09/24 11:19:26:333 +0000 [00689:123145449488384] [DEBUG] [ICRCHdler.cpp            (1889)] [CurlInit]	Set low speed limit 100 bytes/second, low speed timeout 30 seconds
+2023/09/24 11:19:26:334 +0000 [00689:123145449488384] [DEBUG] [logger.h                 ( 33)] [CurlInit]	<<<
+2023/09/24 11:19:26:333 +0000 [00689:4613881344] [ INFO] [ICRCHdler.cpp            (930)] [CreateHttpClientThread]	thread 123145450024960 created
+2023/09/24 11:19:26:334 +0000 [00689:4613881344] [ INFO] [ICRCHdler.cpp            (930)] [CreateHttpClientThread]	thread 123145451634688 created
+2023/09/24 11:19:26:334 +0000 [00689:123145450024960] [DEBUG] [ICRCHdler.cpp            (1948)] [ProcessCmdThread]	force_reconnect_period is 0 seconds
+2023/09/24 11:19:26:335 +0000 [00689:123145452707840] [DEBUG] [ICRCHdler.cpp            (1948)] [ProcessCmdThread]	force_reconnect_period is 0 seconds
+2023/09/24 11:19:26:332 +0000 [00689:123145448415232] [DEBUG] [ICRCHdler.cpp            (1883)] [CurlInit]	Set query timeout 600000 ms
+2023/09/24 11:19:26:335 +0000 [00689:123145451634688] [DEBUG] [ICRCHdler.cpp            (1948)] [ProcessCmdThread]	force_reconnect_period is 0 seconds
+2023/09/24 11:19:26:335 +0000 [00689:4613881344] [ INFO] [ICRCHdler.cpp            (930)] [CreateHttpClientThread]	thread 123145452707840 created
+2023/09/24 11:19:26:335 +0000 [00689:123145450024960] [DEBUG] [logger.h                 ( 25)] [CurlInit]	>>>
+2023/09/24 11:19:26:335 +0000 [00689:123145452707840] [DEBUG] [logger.h                 ( 25)] [CurlInit]	>>>
+2023/09/24 11:19:26:335 +0000 [00689:123145448415232] [DEBUG] [ICRCHdler.cpp            (1889)] [CurlInit]	Set low speed limit 100 bytes/second, low speed timeout 30 seconds
+2023/09/24 11:19:26:335 +0000 [00689:123145451634688] [DEBUG] [logger.h                 ( 25)] [CurlInit]	>>>
+2023/09/24 11:19:26:370 +0000 [00689:123145451634688] [DEBUG] [ICRCHdler.cpp            (1883)] [CurlInit]	Set query timeout 600000 ms
+2023/09/24 11:19:26:370 +0000 [00689:123145451634688] [DEBUG] [ICRCHdler.cpp            (1889)] [CurlInit]	Set low speed limit 100 bytes/second, low speed timeout 30 seconds
+2023/09/24 11:19:26:370 +0000 [00689:123145451634688] [DEBUG] [logger.h                 ( 33)] [CurlInit]	<<<
+2023/09/24 11:19:26:336 +0000 [00689:123145453244416] [DEBUG] [ICRCHdler.cpp            (1821)] [ScheduledThread]	>>>
+2023/09/24 11:19:26:336 +0000 [00689:123145448415232] [DEBUG] [logger.h                 ( 33)] [CurlInit]	<<<
+2023/09/24 11:19:26:336 +0000 [00689:4613881344] [ INFO] [ICRCHdler.cpp            (1012)] [CreateScheduledThread]	thread 123145453244416 created
+2023/09/24 11:19:26:336 +0000 [00689:123145450024960] [DEBUG] [ICRCHdler.cpp            (1883)] [CurlInit]	Set query timeout 600000 ms
+2023/09/24 11:19:26:336 +0000 [00689:123145452707840] [DEBUG] [ICRCHdler.cpp            (1883)] [CurlInit]	Set query timeout 600000 ms
+2023/09/24 11:19:26:374 +0000 [00689:123145452707840] [DEBUG] [ICRCHdler.cpp            (1889)] [CurlInit]	Set low speed limit 100 bytes/second, low speed timeout 30 seconds
+2023/09/24 11:19:26:375 +0000 [00689:123145452707840] [DEBUG] [logger.h                 ( 33)] [CurlInit]	<<<
+2023/09/24 11:19:26:371 +0000 [00689:4613881344] [ INFO] [ICRCHdler.cpp            (956)] [CreateEventCallbackThread]	thread 123145453780992 created
+2023/09/24 11:19:26:371 +0000 [00689:123145453780992] [DEBUG] [EventCallback.cpp        ( 51)] [EventCallBackThread]	>>>
+2023/09/24 11:19:26:371 +0000 [00689:123145453244416] [DEBUG] [timer.cpp                ( 17)] [CTimer]	>>>
+2023/09/24 11:19:26:375 +0000 [00689:4613881344] [ INFO] [ICRCHdler.cpp            (985)] [CreateUpdateThread]	thread 123145454317568 created
+2023/09/24 11:19:26:371 +0000 [00689:123145450024960] [DEBUG] [ICRCHdler.cpp            (1889)] [CurlInit]	Set low speed limit 100 bytes/second, low speed timeout 30 seconds
+2023/09/24 11:19:26:376 +0000 [00689:123145450024960] [DEBUG] [logger.h                 ( 33)] [CurlInit]	<<<
+2023/09/24 11:19:26:375 +0000 [00689:123145454317568] [DEBUG] [logger.h                 ( 25)] [UpdateThread]	>>>
+2023/09/24 11:19:26:376 +0000 [00689:4613881344] [ INFO] [ICRCHdler.cpp            (802)] [CreateFullDownloadAlarmThread]	thread 123145454854144 created
+2023/09/24 11:19:26:376 +0000 [00689:123145453244416] [DEBUG] [timer.cpp                (153)] [Initial]	>>>
+2023/09/24 11:19:26:377 +0000 [00689:4613881344] [DEBUG] [logger.h                 ( 33)] [iCRCHandlerInitializeEx]	<<<
+2023/09/24 11:19:26:379 +0000 [00689:4613881344] [DEBUG] [logger.h                 ( 25)] [iCRCLoadDefaultSSLOptionEx]	>>>
+2023/09/24 11:19:26:379 +0000 [00689:4613881344] [DEBUG] [logger.h                 ( 33)] [iCRCLoadDefaultSSLOptionEx]	<<<
+2023/09/24 11:19:26:379 +0000 [00689:4613881344] [DEBUG] [logger.h                 ( 25)] [iCRCSetSSLOptionsEx]	>>>
+2023/09/24 11:19:26:379 +0000 [00689:4613881344] [DEBUG] [SSLOption.cpp            (275)] [DumpSSLOption]	VerifyPeer	=	1
+CipherList	=	DEFAULT
+SSLVersion	=	-1
+
+2023/09/24 11:19:26:380 +0000 [00689:4613881344] [DEBUG] [logger.h                 ( 33)] [iCRCSetSSLOptionsEx]	<<<
+2023/09/24 11:19:26:380 +0000 [00689:4613881344] [DEBUG] [logger.h                 ( 25)] [iCRCLoadDefaultServerConfigEx]	>>>
+2023/09/24 11:19:26:380 +0000 [00689:4613881344] [DEBUG] [logger.h                 ( 33)] [iCRCLoadDefaultServerConfigEx]	<<<
+2023/09/24 11:19:26:380 +0000 [00689:4613881344] [DEBUG] [logger.h                 ( 25)] [iCRCSetServerConfigEx]	>>>
+2023/09/24 11:19:26:381 +0000 [00689:4613881344] [ INFO] [ServerConfig.cpp         (238)] [SetServerPath]	Is a Global Scan Server:https://drsafety10.icrc.trendmicro.com/ss
+2023/09/24 11:19:26:381 +0000 [00689:4613881344] [DEBUG] [ServerConfig.cpp         (458)] [DumpServerConfig]	
+ServerPath	=	https://drsafety10.icrc.trendmicro.com/ss
+UseProxy	=	0
+Proxy		=	
+ProxyPort	=	8080
+hasProxyAuth	=	False
+
+2023/09/24 11:19:26:381 +0000 [00689:4613881344] [DEBUG] [logger.h                 ( 33)] [iCRCSetServerConfigEx]	<<<
+2023/09/24 11:19:26:381 +0000 [00689:4613881344] [DEBUG] [logger.h                 ( 25)] [iCRCGetBloomFilterPatternVersion]	>>>
+2023/09/24 11:19:26:381 +0000 [00689:4613881344] [DEBUG] [crc0ptn.cpp              (444)] [GetVersion]	Get version from diff table(0x0x600003cf4230), version=2147413063
+2023/09/24 11:19:26:381 +0000 [00689:4613881344] [DEBUG] [logger.h                 ( 33)] [iCRCGetBloomFilterPatternVersion]	<<<
+2023/09/24 11:19:36:378 +0000 [00689:123145453244416] [DEBUG] [timer.cpp                ( 34)] [Initial]	>>>
+2023/09/24 11:19:36:378 +0000 [00689:123145453244416] [DEBUG] [timer.cpp                (171)] [DoWork]	TotalQuery: 0, HitQuery: 0, HitRate: 0%
+2023/09/24 11:19:45:100 +0000 [00689:4613881344] [DEBUG] [logger.h                 ( 25)] [iCRCHandlerDeinitialize]	>>>
+2023/09/24 11:19:45:100 +0000 [00689:4613881344] [DEBUG] [ICRCHdler.cpp            (1546)] [iCRCHandlerDeinitialize]	Set stop event
+2023/09/24 11:19:45:100 +0000 [00689:4613881344] [ INFO] [ICRCHdler.cpp            (1593)] [iCRCHandlerDeinitialize]	Interrupt all threads in HandleList
+2023/09/24 11:19:45:100 +0000 [00689:123145453244416] [DEBUG] [timer.cpp                ( 26)] [~CTimer]	>>>
+2023/09/24 11:19:45:100 +0000 [00689:123145453780992] [DEBUG] [EventCallback.cpp        ( 73)] [EventCallBackThread]	Receive stop event!
+2023/09/24 11:19:45:100 +0000 [00689:4613881344] [ INFO] [ICRCHdler.cpp            (1607)] [iCRCHandlerDeinitialize]	Waiting for stopping thread: 123145448415232
+2023/09/24 11:19:45:100 +0000 [00689:123145454317568] [DEBUG] [logger.h                 ( 33)] [UpdateThread]	<<<
+2023/09/24 11:19:45:100 +0000 [00689:123145453244416] [DEBUG] [ICRCHdler.cpp            (1852)] [ScheduledThread]	<<<
+2023/09/24 11:19:45:100 +0000 [00689:123145453780992] [DEBUG] [EventCallback.cpp        (124)] [EventCallBackThread]	<<<
+2023/09/24 11:19:45:101 +0000 [00689:4613881344] [ INFO] [ICRCHdler.cpp            (1607)] [iCRCHandlerDeinitialize]	Waiting for stopping thread: 123145449488384
+2023/09/24 11:19:45:101 +0000 [00689:4613881344] [ INFO] [ICRCHdler.cpp            (1607)] [iCRCHandlerDeinitialize]	Waiting for stopping thread: 123145450024960
+2023/09/24 11:19:45:101 +0000 [00689:4613881344] [ INFO] [ICRCHdler.cpp            (1607)] [iCRCHandlerDeinitialize]	Waiting for stopping thread: 123145451634688
+2023/09/24 11:19:45:101 +0000 [00689:4613881344] [ INFO] [ICRCHdler.cpp            (1607)] [iCRCHandlerDeinitialize]	Waiting for stopping thread: 123145452707840
+2023/09/24 11:19:45:101 +0000 [00689:4613881344] [ INFO] [ICRCHdler.cpp            (1607)] [iCRCHandlerDeinitialize]	Waiting for stopping thread: 123145453244416
+2023/09/24 11:19:45:101 +0000 [00689:4613881344] [ INFO] [ICRCHdler.cpp            (1607)] [iCRCHandlerDeinitialize]	Waiting for stopping thread: 123145454317568
+2023/09/24 11:19:45:101 +0000 [00689:4613881344] [ INFO] [ICRCHdler.cpp            (1607)] [iCRCHandlerDeinitialize]	Waiting for stopping thread: 123145454854144
+2023/09/24 11:19:45:101 +0000 [00689:4613881344] [DEBUG] [ICRCHdler.cpp            (1640)] [iCRCHandlerDeinitialize]	Delete threads in HandleList
+2023/09/24 11:19:45:101 +0000 [00689:4613881344] [DEBUG] [ICRCHdler.cpp            (1648)] [iCRCHandlerDeinitialize]	Interrupt EventCallBackThread
+2023/09/24 11:19:46:103 +0000 [00689:4613881344] [ INFO] [ICRCHdler.cpp            (1661)] [iCRCHandlerDeinitialize]	Waiting for stopping EventCallBackThread: 123145453780992
+2023/09/24 11:19:46:103 +0000 [00689:4613881344] [DEBUG] [ICRCHdler.cpp            (1672)] [iCRCHandlerDeinitialize]	Delete EventCallBackThread
+2023/09/24 11:19:46:106 +0000 [00689:4613881344] [DEBUG] [ICRCHdler.cpp            (1694)] [iCRCHandlerDeinitialize]	Release StopEvent
+2023/09/24 11:19:46:106 +0000 [00689:4613881344] [DEBUG] [ICRCHdler.cpp            (1702)] [iCRCHandlerDeinitialize]	ReleaseInstance
+2023/09/24 11:19:46:106 +0000 [00689:4613881344] [DEBUG] [ICRCHdler.cpp            (1730)] [iCRCHandlerDeinitialize]	Set pattern version to crc cache
+2023/09/24 11:19:46:106 +0000 [00689:4613881344] [DEBUG] [crc0ptn.cpp              (444)] [GetVersion]	Get version from diff table(0x0x600003cf4230), version=2147413063
+2023/09/24 11:19:46:106 +0000 [00689:4613881344] [DEBUG] [ICRCHdler.cpp            (1735)] [iCRCHandlerDeinitialize]	Release crc0ptn
+2023/09/24 11:19:46:107 +0000 [00689:4613881344] [DEBUG] [ICRCHdler.cpp            (1739)] [iCRCHandlerDeinitialize]	Release CRCCache
+2023/09/24 11:19:46:107 +0000 [00689:4613881344] [DEBUG] [CRCCache.cpp             ( 97)] [~CCrcCache]	TotalQuery: 0, HitQuery: 0, HitRate: 0%
+2023/09/24 11:19:46:107 +0000 [00689:4613881344] [DEBUG] [CRCCache.cpp             (388)] [WriteCache]	Start to write cache /Users/erykhildebrand/Bootcamp/Library/Containers/com.trendmicro.DrSafety/Data/Library/Application Support/Lib/CRC/cache/cache.dat
+2023/09/24 11:19:46:108 +0000 [00689:4613881344] [DEBUG] [ICRCHdler.cpp            (1745)] [iCRCHandlerDeinitialize]	Release HttpQueryStatistic
+2023/09/24 11:19:46:108 +0000 [00689:4613881344] [DEBUG] [ICRCHdler.cpp            (1749)] [iCRCHandlerDeinitialize]	Release CMMAP
+2023/09/24 11:19:46:108 +0000 [00689:4613881344] [DEBUG] [ICRCHdler.cpp            (1753)] [iCRCHandlerDeinitialize]	Release UpdateExecutor
+2023/09/24 11:19:46:108 +0000 [00689:4613881344] [DEBUG] [ICRCHdler.cpp            (1763)] [iCRCHandlerDeinitialize]	Release OpenSSL resources
+2023/09/24 11:19:46:108 +0000 [00689:4613881344] [DEBUG] [logger.h                 ( 33)] [iCRCHandlerDeinitialize]	<<<
+2023/09/24 11:19:46:154 +0000 [00689:4613881344] [ INFO] [GlobalObjectAccessor.h   (151)] [~GlobalObjectFreeHelper]	Free global objects...

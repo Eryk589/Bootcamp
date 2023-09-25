@@ -1,0 +1,29 @@
+24 Sep 2023 at 12:18:36: Log created
+24 Sep 2023 at 12:18:37 : **************************
+24 Sep 2023 at 12:18:37 : ARMAgent invoked...
+24 Sep 2023 at 12:18:37 : Architecture execution : NATIVE_EXECUTION
+24 Sep 2023 at 12:18:52 : process id=589, path: /Library/Application Support/Adobe/ARMDC/Application/Acrobat Update Helper.app
+24 Sep 2023 at 12:18:53 : ** Processing registration information for product com.adobe.reader.dc
+24 Sep 2023 at 12:18:53 :    PlistReader : Optional Plist key {ProductName} is not present.
+24 Sep 2023 at 12:18:53 :    PlistReader : Optional plist key {VersionExt} is not present.
+24 Sep 2023 at 12:18:53 :    PlistReader : Product registration plist parsing done.
+24 Sep 2023 at 12:18:53 :    ERROR Eula acceptance validation failed.
+24 Sep 2023 at 12:18:53 : ** Processing registration information for product com.adobe.reader.servicesupdater.dc
+24 Sep 2023 at 12:18:53 :    PlistReader : Optional Plist key {ProductName} is not present.
+24 Sep 2023 at 12:18:53 :    PlistReader : Product registration plist parsing done.
+24 Sep 2023 at 12:18:53 :    ERROR Eula acceptance validation failed.
+24 Sep 2023 at 12:18:53 : ** ARMAgent: All products are up-to-date, checking self update...
+24 Sep 2023 at 12:18:53 : ** Processing registration information for product com.adobe.ARMDCHelper
+24 Sep 2023 at 12:18:53 :    PlistReader : Optional Plist key {ProductName} is not present.
+24 Sep 2023 at 12:18:53 :    PlistReader : Optional plist key {VersionExt} is not present.
+24 Sep 2023 at 12:18:53 :    PlistReader : Optional plist key {FeatureLockDown} is not present.
+24 Sep 2023 at 12:18:53 :    PlistReader : Product registration plist parsing done.
+24 Sep 2023 at 12:18:53 :    Checking updates for product Acrobat Update Helper .
+24 Sep 2023 at 12:18:53 :    Fetching payload content from https:/armmf.adobe.com/arm-manifests/mac/ARMDC/current_version.txt
+24 Sep 2023 at 12:18:54 : URL 'https:/armmf.adobe.com/arm-manifests/mac/ARMDC/current_version.txt' contents: '1.2.0'
+24 Sep 2023 at 12:18:54 : URL 'https:/armmf.adobe.com/arm-manifests/mac/ARMDC/current_version.txt' contents: '1.2.0'
+24 Sep 2023 at 12:18:54 : Installed app '/Library/Application Support/Adobe/ARMDC/Application/Acrobat Update Helper.app' version: '1.2.0'
+24 Sep 2023 at 12:18:54 : ARM Bookkeeper : creating item at path {/Users/erykhildebrand/Bootcamp/Library/Preferences/Adobe/ARMDC/Support Files/com.adobe.ARMDCHelper.plist}, returned 1
+24 Sep 2023 at 12:18:54 : ARM Bookkeeper : Write contents at {/Users/erykhildebrand/Bootcamp/Library/Preferences/Adobe/ARMDC/Support Files/com.adobe.ARMDCHelper.plist} location
+24 Sep 2023 at 12:18:54 : No update available. Application Acrobat Update Helper is up-to-date. 
+24 Sep 2023 at 12:19:09 : ARMAgent done...

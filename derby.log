@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Sun Sep 24 12:18:57 BST 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.10.2.0 - (1582446): instance a816c00e-018a-c6e9-f90e-00000de477e8 
+on database directory /Library/Caches/Avid/AvidLink/Db/appmanager.db with class loader sun.misc.Launcher$AppClassLoader@75b84c92 
+Loaded from file:/Applications/Avid/Avid%20Link/AvidAppManHelper.app/Contents/Java/AvidApplicationManagerHelper.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_66-u66-AvidOpenJDK-b17
+user.dir=/Users/erykhildebrand/Bootcamp
+os.name=Mac OS X
+os.arch=x86_64
+os.version=10.16
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''

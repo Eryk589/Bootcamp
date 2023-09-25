@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>controlGroup</key>
+	<dict>
+		<key>allocation</key>
+		<integer>0</integer>
+		<key>identifier</key>
+		<string>control</string>
+	</dict>
+	<key>experimentGroups</key>
+	<array>
+		<dict>
+			<key>allocation</key>
+			<integer>0</integer>
+			<key>identifier</key>
+			<string>97df371c</string>
+		</dict>
+		<dict>
+			<key>allocation</key>
+			<integer>1009</integer>
+			<key>identifier</key>
+			<string>433d806f</string>
+		</dict>
+	</array>
+	<key>identifier</key>
+	<string>08a8a2c8</string>
+	<key>salt</key>
+	<string>537B4E7C-4D32-4C2E-ADE2-D0BCCA740DC7</string>
+	<key>type</key>
+	<string>unspecified</string>
+	<key>version</key>
+	<string>1.0.3</string>
+</dict>
+</plist>

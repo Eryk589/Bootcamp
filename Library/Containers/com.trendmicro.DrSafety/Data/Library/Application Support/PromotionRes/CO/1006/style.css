@@ -1,0 +1,128 @@
+/*hach wkwebview no user selection*/
+* {
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica Neue', 'Helvetica', 'Hiragino Sans GB', 'Hiragino Kaku Gothic Pro';
+    -webkit-font-smoothing: antialiased;
+    background: -webkit-linear-gradient(left, #FFFFFF 0%, #FFFFFF 60%);
+    background:linear-gradient(left, #FFFFFF 0%, #FFFFFF 60%);
+}
+
+.wrapper {
+    position: absolute;
+    width: 800px;
+    height: 600px;
+    left: 50%;
+    margin-left: -400px;
+    top: 50%;
+    margin-top: -300px;
+    /*background-color: #ECECEC;*/
+}
+
+.cleaner-image {
+    margin-top: 75px;
+    margin-left: 170px;
+    left: 25%;
+    width: 460px;
+    height: 258px;
+    background-image: url(images/CleanerOne.png);
+}
+
+.unsafe-percentage-colorfont {
+    font-size: 200%;
+    color: #F5A623;
+}
+
+.description-1 {
+/*    font-family: HelveticaNeue-Light;*/
+    font-size: 20px;
+    font-weight: 300;
+    color: #333333;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 45px;
+    text-align: center;
+    cursor: default;
+}
+
+.description-2 {
+    font-size: 20px;
+    font-weight: 300;
+    color: #333333;
+    margin: 20px auto 0;
+    top: 497px;
+    width: 750px;
+    margin-top: 15px;
+    text-align: center;
+    cursor: default;
+}
+
+.btn-cancel {
+    /*position: absolute;*/
+    float: left;
+    margin-top: 40px;
+    margin-left: 175px;
+    /*top: 554px;*/
+    /* left: 220px; */
+    width: 200px;
+    height: 34px;
+    background-image: url(images/button_normal.png);
+}
+
+.btn-cancel-title {
+    font-size: 16px;
+    font-weight: 400;
+    color: #333333;
+    display: inline-block;
+    line-height: 34px;
+    width: 197px;
+    text-align: center;
+    padding-left: 2px;
+    cursor: default;
+}
+
+.btn-download {
+    float: left;
+    margin-top: 40px;
+    margin-left: 50px;
+    width: 200px;
+    height: 34px;
+    background-image: url(images/button_yellow_normal.png);
+}
+
+.btn-download-title {
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    display: inline-block;
+    line-height: 34px;
+    width: 197px;
+    text-align: center;
+    padding-left: 2px;
+    cursor: default;
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {  
+    .cleaner-image {
+        background-image: url(images/CleanerOne@2x.png);
+        background-size: 100% 100%;
+    }
+
+    .btn-cancel {
+        background-image: url(images/button_normal@2x.png);
+        background-size: 100% 100%;
+    }
+
+    .btn-download {
+        background-image: url(images/button_yellow_normal@2x.png);
+        background-size: 100% 100%;
+    }
+}

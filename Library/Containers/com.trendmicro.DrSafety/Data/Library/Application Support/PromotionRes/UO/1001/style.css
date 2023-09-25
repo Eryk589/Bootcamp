@@ -1,0 +1,133 @@
+/*hach wkwebview no user selection*/
+* {
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica Neue', 'Helvetica', 'Hiragino Sans GB', 'Hiragino Kaku Gothic Pro';
+    -webkit-font-smoothing: antialiased;
+    background: -webkit-linear-gradient(left, #FFFFFF 0%, #FFFFFF 60%);
+    background:linear-gradient(left, #FFFFFF 0%, #FFFFFF 60%);
+}
+
+.wrapper {
+    position: absolute;
+    width: 800px;
+    height: 600px;
+    left: 50%;
+    margin-left: -400px;
+    top: 50%;
+    margin-top: -300px;
+    /*background-color: #ECECEC;*/
+}
+
+.dr-unarchiver-image {
+    position: absolute;
+    top: 34px;
+    left: 102px;
+    width: 595px;
+    height: 314px;
+    background-image: url(images/dr_unarchiver_image.png);
+}
+
+.unsafe-percentage-colorfont {
+    font-size: 200%;
+    color: #F5A623;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: 300;
+    color: #333333;
+    margin: 375px auto 0;
+    width: 800px;
+    /*top: 375px;*/
+    /*left: 0px;*/
+    text-align: center;
+    /*position: absolute;*/
+    cursor: default;
+}
+
+.description {
+    font-size: 18px;
+    font-weight: 200;
+    color: #333333;
+    margin: 25px auto 0;
+    width: 750px;
+    /*top: 444px;*/
+    /*left: 214px;*/
+    text-align: center;
+    /*position: absolute;*/
+    cursor: default;
+}
+
+.btn-cancel {
+    /*position: absolute;*/
+    float: left;
+    margin-top: 38px;
+    margin-left: 175px;
+    /*top: 540px;*/
+    /*left: 220px;*/
+    width: 201px;
+    height: 34px;
+    background-image: url(images/btn_bg_light.png);
+}
+
+.btn-cancel-title {
+    font-size: 100%;
+    font-weight: 400;
+    color: #333333;
+    display: inline-block;
+    line-height: 34px;
+    width: 197px;
+    text-align: center;
+    padding-left: 2px;
+    cursor: default;
+}
+
+.btn-open {
+    /*position: absolute;*/
+    float: left;
+    margin-top: 38px;
+    margin-left: 48px;
+    /*top: 540px;*/
+    /*left: 470px;*/
+    width: 201px;
+    height: 35px;
+    background-image: url(images/btn_bg_blue.png);
+}
+
+.btn-open-title {
+    font-size: 100%;
+    font-weight: 400;
+    color: #FFFFFF;
+    display: inline-block;
+    line-height: 35px;
+    width: 197px;
+    text-align: center;
+    padding-left: 2px;
+    cursor: default;
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {  
+    .dr-unarchiver-image {
+        background-image: url(images/dr_unarchiver_image@2x.png);
+        background-size: 100% 100%;
+    }
+
+    .btn-cancel {
+        background-image: url(images/btn_bg_light@2x.png);
+        background-size: 100% 100%;
+    }
+
+    .btn-open {
+        background-image: url(images/btn_bg_blue@2x.png);
+        background-size: 100% 100%;
+    }
+}

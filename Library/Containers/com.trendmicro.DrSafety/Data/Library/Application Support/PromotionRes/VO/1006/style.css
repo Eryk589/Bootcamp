@@ -1,0 +1,184 @@
+/*hach wkwebview no user selection*/
+* {
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica Neue', 'Helvetica', 'Hiragino Sans GB', 'Hiragino Kaku Gothic Pro';
+    -webkit-font-smoothing: antialiased;
+    background: -webkit-linear-gradient(left, #FFFFFF 0%, #FFFFFF 60%);
+    background: linear-gradient(left, #FFFFFF 0%, #FFFFFF 60%);
+}
+
+.wrapper {
+    position: absolute;
+    width: 800px;
+    height: 600px;
+    left: 50%;
+    margin-left: -400px;
+    top: 50%;
+    margin-top: -300px;
+    /*background-color: #ECECEC;*/
+}
+
+.vpn-description-image{
+    position: absolute;
+
+    top: 30px;
+    left: 70px;
+    
+    width: 662px;
+    height: 325px;
+
+    background-size: 100% 100%;
+    background-image: url(images/VPNProxyOneDescription.png);
+}
+
+.vpn-name{
+    position: absolute;
+    text-align: center;
+    top: 320px;
+    left: 150px;
+
+    width: 500px;
+    height: 56px;
+    color: #333333;
+    font-family: 'Helvetica Neue';
+    font-weight: 200;
+    font-size: 40px;
+}
+
+.vpn-description-word-en, .vpn-description-word-ko, .vpn-description-word-zh-Hans{
+    position: absolute;
+
+    top: 380px;
+    left: 50px;
+
+    width: 730px;
+    left: 30px;
+
+    color: #333333;
+    text-align: center;
+    font-family: 'Helvetica Neue';
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.vpn-description-word-zh-Hant{
+     position: absolute;
+
+    top: 380px;
+    left: 50px;
+
+    width: 730px;
+    left: 30px;
+
+    color: #333333;
+    text-align: center;
+    font-family: 'Helvetica Neue';
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.vpn-description-word-ru{
+    position: absolute;
+
+    top: 380px;
+    left: 50px;
+
+    width: 730px;
+    left: 30px;
+
+    color: #333333;
+    text-align: center;
+    font-family: 'Helvetica Neue';
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.vpn-description-word-de, .vpn-description-word-es, .vpn-description-word-fr, .vpn-description-word-it, .vpn-description-word-nl, .vpn-description-word-pt-BR{
+    position: absolute;
+
+    top: 380px;
+    left: 50px;
+
+    width: 730px;
+    left: 30px;
+
+    color: #333333;
+    text-align: center;
+    font-family: 'Helvetica Neue';
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.cancel-btn{
+    position: absolute;
+
+    top: 470px;
+    left: 170px;
+
+    width: 200px;
+    height: 37px;
+
+    color: #333333;
+    font-family: 'Helvetica Neue';
+    font-size: 16px;
+    font-weight: normal;
+
+    background-color: #FFFFFF;
+    border: 0.5px solid rgba(0,0,0,0.05);
+    border-width: 1px;
+    box-shadow: 0 1px 0 0 rgba(0,0,0,0.15);
+    border-radius: 6.5px;
+    cursor: default;
+}
+
+.open-btn{
+    position: absolute;
+
+    top: 470px;
+    left: 400px;
+
+    width: 200px;
+    height: 37px;
+
+    
+    color: #FFFFFF;
+    font-family: 'Helvetica Neue';
+    font-size: 16px;
+    font-weight: normal;
+
+    background-color: #00B1F0;
+    border: 0.5px solid rgba(0,0,0,0.05);
+    border-width: 1px;
+    box-shadow: 0 1px 0 0 rgba(0,0,0,0.15);
+    border-radius: 6.5px;
+    cursor: default;
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+    .vpn-image {
+        background-image: url(images/VPNOne@2x.png);
+        background-size: 100% 100%;
+    }
+
+    .qrcode-image {
+        background-image: url(images/code@2x.png);
+        background-size: 100% 100%;
+    }
+
+    .btn-open {
+        background-image: url(images/button_yellow@2x.png);
+        background-size: 100% 100%;
+    }
+}

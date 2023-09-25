@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DateStarted</key>
+	<date>2023-09-24T11:18:30Z</date>
+	<key>dailyActiveTimePurgeableS</key>
+	<real>6</real>
+	<key>dailyActiveTimeS</key>
+	<real>6</real>
+	<key>dailyNumDesiredDiskBroadcastsAll</key>
+	<integer>1</integer>
+	<key>dailyNumDesiredDiskBroadcastsRoot</key>
+	<integer>1</integer>
+	<key>dailyPurgeableReqs</key>
+	<integer>6</integer>
+	<key>purgeable_time_Late_com.apple.bird.cache-delete</key>
+	<integer>1</integer>
+	<key>purgeable_time_Late_com.apple.mobileassetd.cache-delete</key>
+	<integer>1</integer>
+	<key>purgeable_time_Late_com.apple.osanalytics.user.cachedelete</key>
+	<integer>1</integer>
+	<key>purgeable_time_Verylate_com.apple.AssetCache.builtin.CacheDelete</key>
+	<integer>1</integer>
+	<key>purgeable_time_Verylate_com.apple.FileProvider.cache-delete</key>
+	<integer>1</integer>
+	<key>purgeable_time_Verylate_com.apple.Music.MusicCacheExtension</key>
+	<integer>1</integer>
+	<key>purgeable_time_Verylate_com.apple.Safari.CacheDeleteExtension</key>
+	<integer>1</integer>
+	<key>purgeable_time_Verylate_com.apple.TMCacheDelete</key>
+	<integer>1</integer>
+	<key>purgeable_time_Verylate_com.apple.TV.TVCacheExtension</key>
+	<integer>1</integer>
+	<key>purgeable_time_Verylate_com.apple.aned.CacheDelete</key>
+	<integer>1</integer>
+	<key>purgeable_time_Verylate_com.apple.appstoreagent.CacheDelete</key>
+	<integer>1</integer>
+	<key>purgeable_time_Verylate_com.apple.commerce.cachedelete</key>
+	<integer>1</integer>
+	<key>purgeable_time_Verylate_com.apple.coresymbolicationd.cache-delete</key>
+	<integer>1</integer>
+	<key>purgeable_time_Verylate_com.apple.installd.CacheDelete</key>
+	<integer>1</integer>
+	<key>purgeable_time_Verylate_com.apple.metadata.mds.cachedelete</key>
+	<integer>1</integer>
+	<key>purgeable_time_Verylate_com.apple.quicklook.ThumbnailsAgent.CacheDelete</key>
+	<integer>1</integer>
+	<key>purgeable_time_Verylate_com.apple.replayd-cache-delete</key>
+	<integer>1</integer>
+	<key>purgeable_time_Verylate_com.apple.system_installd.CacheDelete</key>
+	<integer>1</integer>
+</dict>
+</plist>

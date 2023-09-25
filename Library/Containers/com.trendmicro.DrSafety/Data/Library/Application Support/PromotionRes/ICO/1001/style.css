@@ -1,0 +1,160 @@
+/*hach wkwebview no user selection*/
+* {
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica Neue', 'Helvetica', 'Hiragino Sans GB', 'Hiragino Kaku Gothic Pro';
+    -webkit-font-smoothing: antialiased;
+    background: -webkit-linear-gradient(left, #FFFFFF 0%, #FFFFFF 60%);
+    background: linear-gradient(left, #FFFFFF 0%, #FFFFFF 60%);
+}
+
+.wrapper {
+    position: absolute;
+    width: 800px;
+    height: 600px;
+    left: 50%;
+    margin-left: -450px;
+    top: 50%;
+    margin-top: -330px;
+}
+
+.dr-cleaner-image {
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 105px;
+    width: 245px;
+    height: 458px;
+    background-repeat:no-repeat;
+    background-image: url(images/dr_cleaner_ios.png);
+}
+
+.title {
+    font-size: 200%;
+    font-weight: 200;
+    color: black;
+    width: 450px;
+    top: 120px;
+    left: 385px;
+    text-align: left;
+    font-weight: 400;
+    position: absolute;
+    cursor: default;
+}
+
+.description {
+    font-size: 110%;
+    font-weight: 400;
+    color: #222;
+    top: 185px;
+    width: 420px;
+    left: 385px;
+    text-align: left;
+    position: absolute;
+    cursor: default;
+    word-spacing: 2px;
+}
+
+.qr-code-guide {
+    font-size: 100%;
+    font-weight: 400;
+    color: #222;
+    top: 225px;
+    width: 400px;
+    left: 385px;
+    text-align: left;
+    position: absolute;
+    cursor: default;
+    word-spacing: 2px;
+}
+
+
+.btn-cancel {
+    position: absolute;
+    top: 380px;
+    left: 385px;
+    width: 200px;
+    height: 34px;
+    background-image: url(images/btn_bg_light.png);
+}
+
+.btn-cancel-title {
+    font-size: 100%;
+    font-weight: 400;
+    color: #333333;
+    display: inline-block;
+    line-height: 34px;
+    width: 140px;
+    text-align: center;
+    padding-left: 30px;
+    cursor: default;
+}
+
+.btn-open {
+    position: absolute;
+    top: 335px;
+    left: 385px;
+    width: 200px;
+    height: 35px;
+    background-image: url(images/btn_bg_blue.png);
+}
+
+.btn-open-title {
+    font-size: 100%;
+    font-weight: 400;
+    color: #FFFFFF;
+    display: inline-block;
+    line-height: 35px;
+    width: 140px;
+    text-align: center;
+    padding-left: 30px;
+    cursor: default;
+}
+
+.qr-code {
+    position: absolute;
+    top: 308px;
+    left: 605px;
+    width: 180px;
+    height: 180px;
+    background: url(images/drCleanerQRCode.png) no-repeat center center;
+    -moz-transform: scale(0.76, 0.76);
+    -webkit-transform: scale(0.76, 0.76);
+    transform: scale(0.76, 0.76);
+}
+
+.word_surround{
+    -moz-transform: scale(0.75, 0.75);
+    -webkit-transform: scale(0.75, 0.75);
+    transform: scale(0.75, 0.75);
+}
+
+/*!*!*For hi res devices*!*!*/
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+    .dr-cleaner-image {
+        background-image: url(images/dr_cleaner_ios@2x.png);
+        background-size: 100% 100%;
+    }
+
+    .btn-cancel {
+        background-image: url(images/btn_bg_light@2x.png);
+        background-size: 100% 100%;
+    }
+
+    .btn-open {
+        background-image: url(images/btn_bg_blue@2x.png);
+        background-size: 100% 100%;
+    }
+
+    .qr-code{
+        background-image: url(images/drCleanerQRCode@2x.png);
+        background-size: 100% 100%;
+    }
+
+}

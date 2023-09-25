@@ -1,0 +1,1 @@
+{"apps":{"journeys":{"whitelist":[{"definition":{"filter":{"kind":"AMSMarketingItemParser"},"allowsResponse":true}},{"definition":{"filter":{"eventType":"purchase"},"allowsResponse":true}}],"cachedResponses":{}}},"lastSyncedBuild":"20G1427"}

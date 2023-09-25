@@ -1,0 +1,39 @@
+.box1 {
+  height: 200px;
+  width: 200px;
+  background-color: dodgerblue;
+  border: 2px solid black;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 64px;
+  text-align: center;
+}
+
+.box2 {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  border: 2px solid black;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 64px;
+  text-align: center;
+}
+
+
+.box1 {
+  position: sticky;
+  /* top, left, right, bottom,  values
+  can only be applied to elements with a position that is not static */
+  /* Relative position - allows us to offset and element relative to its startingpoint */
+  /* Z-index sets the order of the elements */
+  z-index: 1;
+  top: 0;
+  
+}
+
+ .box2 {
+  /* Absolutly position elements position themselves inside the near if no element is not foud it uses the viewpoint */
+  /* position: absolute; */
+  /* top: 500px; */
+}

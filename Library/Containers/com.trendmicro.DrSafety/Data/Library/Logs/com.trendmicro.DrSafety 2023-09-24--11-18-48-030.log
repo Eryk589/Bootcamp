@@ -1,0 +1,102 @@
+2023-09-24 12:18:48.0290+0100 Antivirus One[689:5671] [INFO] appVersion:3.9.5.3041 location:ReceiptValidator.m:345(-[ReceiptValidator validateAppReceiptsViaServerWithForceCheck:Bundle:]) Description=>: [vARVSWFC] bundle : (
+    CleanerAndSafetyByYearBundle
+)
+2023-09-24 12:18:48.0290+0100 Antivirus One[689:5671] [INFO] appVersion:3.9.5.3041 location:ReceiptValidator.m:369(-[ReceiptValidator validateAppReceiptsViaServerWithForceCheck:Bundle:]) Description=>: Start force check
+2023-09-24 12:18:49.2530+0100 Antivirus One[689:5721] [ERROR] appVersion:3.9.5.3041 location:DSPromoteManager.m:237(-[DSPromoteManager downloadNewResources:withSource:]_block_invoke_2) Description=>: rm path /Users/erykhildebrand/Bootcamp/Library/Containers/com.trendmicro.DrSafety/Data/Library/Application Support/Caches/PromotionRes, error: Error Domain=NSCocoaErrorDomain Code=4 "“PromotionRes” couldn’t be removed." UserInfo={NSUserStringVariant=(
+    Remove
+), NSFilePath=/Users/erykhildebrand/Bootcamp/Library/Containers/com.trendmicro.DrSafety/Data/Library/Application Support/Caches/PromotionRes, NSUnderlyingError=0x6000011192c0 {Error Domain=NSPOSIXErrorDomain Code=2 "No such file or directory"}}
+2023-09-24 12:18:49.4410+0100 Antivirus One[689:5325] [INFO] appVersion:3.9.5.3041 location:HTTPServer.m:430(-[HTTPServer start:]_block_invoke) Description=>: HTTPServer: Started HTTP server on port 8890
+2023-09-24 12:18:50.5740+0100 Antivirus One[689:5724] [INFO] appVersion:3.9.5.3041 location:ReceiptValidator.m:372(-[ReceiptValidator validateAppReceiptsViaServerWithForceCheck:Bundle:]_block_invoke) Description=>: [vARVSWFC] response : {
+    code = 0;
+    data =     {
+        "bundle_validation" =         (
+        );
+        "latest_receipt_info" =         (
+                        {
+                "expires_date" = "2024-07-28 20:20:47 Etc/GMT";
+                "expires_date_ms" = 1722198047000;
+                "expires_date_pst" = "2024-07-28 13:20:47 America/Los_Angeles";
+                "in_app_ownership_type" = PURCHASED;
+                "is_in_intro_offer_period" = false;
+                "is_trial_period" = false;
+                "original_purchase_date" = "2023-07-28 20:20:48 Etc/GMT";
+                "original_purchase_date_ms" = 1690575648000;
+                "original_purchase_date_pst" = "2023-07-28 13:20:48 America/Los_Angeles";
+                "original_transaction_id" = 420001561100547;
+                "product_id" = "com.trendmicro.DrSafety.VirusCleanByYear";
+                "purchase_date" = "2023-07-28 20:20:47 Etc/GMT";
+                "purchase_date_ms" = 1690575647000;
+                "purchase_date_pst" = "2023-07-28 13:20:47 America/Los_Angeles";
+                quantity = 1;
+                "subscription_group_identifier" = 20311911;
+                "transaction_id" = 420001561100547;
+                "web_order_line_item_id" = 420000732082085;
+            }
+        );
+        "pending_renewal_info" =         (
+                        {
+                "auto_renew_product_id" = "com.trendmicro.DrSafety.VirusCleanByYear";
+                "auto_renew_status" = 1;
+                "original_transaction_id" = 420001561100547;
+                "product_id" = "com.trendmicro.DrSafety.VirusCleanByYear";
+            }
+        );
+        validation =         (
+                        {
+                "expires_date_ms" = 1722198047000;
+                "intro_offer_eligible" = 1;
+                "is_billing_retry" = 0;
+                "is_cancelled" = 0;
+                "is_trial_period" = 0;
+                "is_valid" = 1;
+                "original_transaction_id" = 420001561100547;
+                "product_id" = "com.trendmicro.DrSafety.VirusCleanByYear";
+            }
+        );
+    };
+}
+2023-09-24 12:18:50.5940+0100 Antivirus One[689:5671] [INFO] appVersion:3.9.5.3041 location:ReceiptValidator.m:394(-[ReceiptValidator validateAppReceiptsViaServerWithForceCheck:Bundle:]) Description=>: [vARVSWFC] After checking and server result : {
+    BundleResult =     {
+    };
+    "Upgrade to Pro" =     {
+        "expires_date_ms" = 1722198047000;
+        "intro_offer_eligible" = 1;
+        "is_billing_retry" = 0;
+        "is_cancelled" = 0;
+        "is_trial_period" = 0;
+        "is_valid" = 1;
+        "original_transaction_id" = 420001561100547;
+        "product_id" = "com.trendmicro.DrSafety.VirusCleanByYear";
+    };
+    latestReceiptInfo =     (
+                {
+            "expires_date" = "2024-07-28 20:20:47 Etc/GMT";
+            "expires_date_ms" = 1722198047000;
+            "expires_date_pst" = "2024-07-28 13:20:47 America/Los_Angeles";
+            "in_app_ownership_type" = PURCHASED;
+            "is_in_intro_offer_period" = false;
+            "is_trial_period" = false;
+            "original_purchase_date" = "2023-07-28 20:20:48 Etc/GMT";
+            "original_purchase_date_ms" = 1690575648000;
+            "original_purchase_date_pst" = "2023-07-28 13:20:48 America/Los_Angeles";
+            "original_transaction_id" = 420001561100547;
+            "product_id" = "com.trendmicro.DrSafety.VirusCleanByYear";
+            "purchase_date" = "2023-07-28 20:20:47 Etc/GMT";
+            "purchase_date_ms" = 1690575647000;
+            "purchase_date_pst" = "2023-07-28 13:20:47 America/Los_Angeles";
+            quantity = 1;
+            "subscription_group_identifier" = 20311911;
+            "transaction_id" = 420001561100547;
+            "web_order_line_item_id" = 420000732082085;
+        }
+    );
+    pendingRenewalInfo =     (
+                {
+            "auto_renew_product_id" = "com.trendmicro.DrSafety.VirusCleanByYear";
+            "auto_renew_status" = 1;
+            "original_transaction_id" = 420001561100547;
+            "product_id" = "com.trendmicro.DrSafety.VirusCleanByYear";
+        }
+    );
+}
+2023-09-24 12:19:20.6250+0100 Antivirus One[689:5690] [ERROR] appVersion:3.9.5.3041 location:VCActiveUpdateController.m:43(-[VCActiveUpdateController updateVSAPIPattern:]) Description=>: Failed to load AU module!
